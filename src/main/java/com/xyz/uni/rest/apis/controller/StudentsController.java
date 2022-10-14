@@ -1,4 +1,4 @@
-package com.xyz.rest.api.controller;
+package com.xyz.uni.rest.apis.controller;
 
 import java.util.List;
 
@@ -7,14 +7,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.xyz.rest.api.model.Students;
-import com.xyz.uni.rest.api.service.StudentService;
+import com.xyz.uni.rest.apis.model.Students;
+import com.xyz.uni.rest.apis.service.StudentService;
 
 //mark class as Controller  
 @RestController
 
+@RequestMapping("/api/v1")
 public class StudentsController {
 
 //autowire the StudentService class 

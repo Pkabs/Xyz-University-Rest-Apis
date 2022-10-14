@@ -1,8 +1,8 @@
-package com.xyz.uni.rest.api.repository;
+package com.xyz.uni.rest.apis.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.xyz.rest.api.model.Students;
+import com.xyz.uni.rest.apis.model.Students;
 
 public interface StudentsRepository extends CrudRepository<Students, Integer>  {
 

@@ -1,4 +1,4 @@
-package com.xyz.uni.rest.api.service;
+package com.xyz.uni.rest.apis.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.xyz.rest.api.model.Students;
-import com.xyz.uni.rest.api.repository.StudentsRepository;
+import com.xyz.uni.rest.apis.model.Students;
+import com.xyz.uni.rest.apis.repository.StudentsRepository;
 
 //defining the business logic  
 @Service

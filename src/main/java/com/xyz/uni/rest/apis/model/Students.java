@@ -1,4 +1,4 @@
-package com.xyz.rest.api.model;
+package com.xyz.uni.rest.apis.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
