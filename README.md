@@ -11,7 +11,7 @@ Xyz University Rest Api repo to be used by Family Bank to validate student detai
 * H2 In memory DB to simulate database with table for students for Xyz university
 
 # Setup
-* Fork the project
+* Fork the repo
 * Download the file CompliedJarFile.rar
 * Unzip the file to a folder
 * Open CMD and cd to the folder with the unzipped contents
