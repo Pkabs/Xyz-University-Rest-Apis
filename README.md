@@ -1,5 +1,5 @@
 # Xyz-University-Rest-Apis
-Rest Api repo for Xyz University to be used by Family Bank
+Xyz University Rest Apis repo to be used by Family Bank
 
 # Prerequisites
 * This project requires java 17 to be installed
