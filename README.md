@@ -1,5 +1,5 @@
 # Xyz-University-Rest-Apis
-Rest Api project for Xyz University to be used by Family Bank for validating student details
+Rest Api repo for Xyz University to be used by Family Bank for validating student details
 
 # Prerequisites
 * This project requires java 17 to be installed
