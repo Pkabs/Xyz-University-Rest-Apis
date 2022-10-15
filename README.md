@@ -1,5 +1,5 @@
 # Xyz-University-Rest-Apis
-This Rest Api project for Xyz University is used to validate student details.
+This Rest Api project for Xyz University.
 
 # Prerequisites
 * This project requires java 17 to be installed
