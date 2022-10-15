@@ -1,5 +1,5 @@
 # Xyz-University-Rest-Apis
-Xyz University Rest Apis repo to be used by Family Bank
+Xyz University Rest Apis repo to be used by Family Bank to validate student details then post payment notifications.
 
 # Prerequisites
 * This project requires java 17 to be installed
@@ -22,7 +22,7 @@ Xyz University Rest Apis repo to be used by Family Bank
 * Open postman and select POST
 * Invoke the URL http://localhost:8080/ValidateStudent/v1/students
 * Select BODY, then select content type JSON
-* Paste the sample data below, one can chang the record details to post several records
+* Paste the sample data below, one can change the record details to post several records
 ```
 {
 "studentId": "123456",
@@ -49,6 +49,26 @@ Xyz University Rest Apis repo to be used by Family Bank
         "studentDetails": "Joined in the year 2003"
     }
 ]
+```
+
+* One can also validate a specific student by passing a registration number on the URL as http://localhost:8080/ValidateStudent/v1/students/123456 and getting below response
+```
+{
+    "studentId": 123456,
+    "studentName": "Justus Kimani",
+    "studentDetails": "Joined in the year 2002"
+}
+```
+
+* For payment notifications, change the URL to http://localhost:8080/PaymentNotification/v1/payments and method to POST then use below sample payment notification payload
+```
+{
+"paymentReference": "FTC221015ATC",
+"paymentChannel": "Branch",
+"paymentMethod": "Cheque",
+"paymentDetails": "Tuition for Sem 1 2022",
+"paymentStatus": "Paid"
+}
 ```
 # Developer
 * Peter Kabira
