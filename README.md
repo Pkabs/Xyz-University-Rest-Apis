@@ -1,4 +1,4 @@
-# Xyz-University-Rest-Apis
+# Xyz-University-Rest-Apis-Repo
 Xyz University Rest Apis repo to be used by Family Bank to validate student details then post payment notifications.
 
 # Prerequisites
