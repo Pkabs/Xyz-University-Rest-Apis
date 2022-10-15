@@ -2,6 +2,8 @@ package com.xyz.uni.rest.apis.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,7 +18,7 @@ import com.xyz.uni.rest.apis.service.StudentService;
 //mark class as Controller  
 @RestController
 
-@RequestMapping("/api/v1")
+@RequestMapping("/ValidateStudent/v1")
 public class StudentsController {
 
 //autowire the StudentService class 
@@ -38,7 +40,7 @@ public class StudentsController {
 
 //creating post mapping that post students in the database  
 	@PostMapping("/students")
-	private int saveStudent(@RequestBody Students student) {
+	private int saveStudent(@Valid @RequestBody Students student) {
 		studentService.saveOrUpdate(student);
 		return student.getStudentId();
 	}

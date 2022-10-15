@@ -13,6 +13,7 @@ import javax.persistence.Table;
 public class Students {
 
 //Defining student ID as primary key
+
 @Id
 @Column
 private int studentId;  
