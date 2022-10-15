@@ -51,7 +51,7 @@ Xyz University Rest Apis repo to be used by Family Bank to validate student deta
 ]
 ```
 
-* One can also validate a specific student by passing a registration number on the URL as http://localhost:8080/ValidateStudent/v1/students/123456 and getting below response
+* One can also validate a specific student by passing a student ID number on the URL as http://localhost:8080/ValidateStudent/v1/students/123456 and getting below response
 ```
 {
     "studentId": 123456,
