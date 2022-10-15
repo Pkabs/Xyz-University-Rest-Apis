@@ -20,9 +20,9 @@ Xyz University Rest Apis repo to be used by Family Bank to validate student deta
 # Testing API
 * Since we are using an in memory DB to simulate the Xyz University database, we first have to POST some sample student records before invoking the GET method
 * Open postman and select POST
-* Invoke the URL http://localhost:8080/ValidateStudent/v1/students
+* Paste the URL http://localhost:8080/ValidateStudent/v1/students
 * Select BODY, then select content type JSON
-* Paste the sample data below, one can change the record details to post several records
+* Use below sample payload to create student sample records. One can change the record details to post several records
 ```
 {
 "studentId": "123456",
