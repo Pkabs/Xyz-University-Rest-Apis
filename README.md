@@ -11,14 +11,15 @@ Xyz University Rest Api repo to be used by Family Bank to validate student detai
 * H2 In memory DB to simulate database with table for students for Xyz university
 
 # Setup
-* Fork the project
+* Fork the repo
 * Download the file CompliedJarFile.rar
 * Unzip the file to a folder
 * Open CMD and cd to the folder with the unzipped contents
 * Type the command `java -jar XyzUniversityRestApiApplication.jar` then wait for the service to come up. When successfully up, service will open an HTTP port 8080
 
-# Testing API
-* Since we are using an in memory DB to simulate the Xyz University database, we first have to POST some sample student records before invoking the GET method
+# Structure and Api Testing
+## Student Validation
+* Since we are using an in memory DB to simulate the Xyz University database, we first have to POST some sample student records before validating.
 * Open postman and select POST
 * Paste the URL http://localhost:8080/ValidateStudent/v1/students
 * Select BODY, then select content type JSON
@@ -59,7 +60,7 @@ Xyz University Rest Api repo to be used by Family Bank to validate student detai
     "studentDetails": "Joined in the year 2002"
 }
 ```
-
+## Payment Notification
 * For payment notifications, change the URL to http://localhost:8080/PaymentNotification/v1/payments and method to POST then use below sample payment notification payload
 ```
 {
