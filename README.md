@@ -1,5 +1,5 @@
 # Xyz-University-Rest-Apis-Repo
-Xyz University Rest Apis repo to be used by Family Bank to validate student details then post payment notifications.
+Xyz University Rest Api repo to be used by Family Bank to validate student details then post payment notifications.
 
 # Prerequisites
 * This project requires java 17 to be installed
