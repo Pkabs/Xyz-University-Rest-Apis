@@ -10,6 +10,13 @@ This Rest Api project for Xyz University is used to validate student details.
 * Spring Boot: 2.7.4
 * H2 In memory DB to simulate database with table for students for Xyz university
 
+# Setup
+* Fork the project
+* Download the file CompliedJarFile.rar
+* Unzip the file to a folder
+* Open CMD and cd to the folder with the unzipped contents
+* Type the command `java -jar XyzUniversityRestApiApplication.jar` then wait for the service to come up. When successfully up, service will open port an HTTP 8080
+
 # Testing API
 * Since we are using an in memory DB to simulate the Xyz University database, we first have to POST some sample student records before invoking the GET method
 * Open postman and select POST
