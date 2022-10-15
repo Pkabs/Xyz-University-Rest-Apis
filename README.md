@@ -18,7 +18,7 @@ Xyz University Rest Api repo to be used by Family Bank to validate student detai
 * Type the command `java -jar XyzUniversityRestApiApplication.jar` then wait for the service to come up. When successfully up, service will open an HTTP port 8080
 
 # Testing API
-# # Student Validation
+## Student Validation
 * Since we are using an in memory DB to simulate the Xyz University database, we first have to POST some sample student records before validating.
 * Open postman and select POST
 * Paste the URL http://localhost:8080/ValidateStudent/v1/students
@@ -60,7 +60,7 @@ Xyz University Rest Api repo to be used by Family Bank to validate student detai
     "studentDetails": "Joined in the year 2002"
 }
 ```
-# # Payment Notification
+## Payment Notification
 * For payment notifications, change the URL to http://localhost:8080/PaymentNotification/v1/payments and method to POST then use below sample payment notification payload
 ```
 {
